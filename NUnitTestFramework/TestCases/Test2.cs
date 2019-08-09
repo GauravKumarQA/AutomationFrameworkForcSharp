@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NUnitTestFramework.BasePackage;
 
 namespace NUnitTestFramework.TestCases
 {
@@ -13,7 +14,9 @@ namespace NUnitTestFramework.TestCases
         [Test]
         public void test4()
         {
-            Console.WriteLine("i am test 4");
+            BaseBrowserSetup bs = new BaseBrowserSetup();
+            bs.GetDriver().Navigate().GoToUrl("http:google.com");
+            
         }
 
     }

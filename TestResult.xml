@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<test-run id="2" testcasecount="5" result="Passed" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.10.0.0" clr-version="4.0.30319.42000" start-time="2019-08-08 05:49:51Z" end-time="2019-08-08 05:49:56Z" duration="4.655653">
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.10.0.0" clr-version="4.0.30319.42000" start-time="2019-08-08 18:07:43Z" end-time="2019-08-08 18:07:45Z" duration="1.526778">
   <command-line><![CDATA["C:\NUnit\bin\net20\nunit3-console.exe"  NUnitTestFramework.sln]]></command-line>
-  <test-suite type="Assembly" id="1-1008" name="NUnitTestFramework.dll" fullname="C:\Users\Naehas\source\repos\NUnitTestFramework\NUnitTestFramework\bin\Debug\NUnitTestFramework.dll" runstate="Runnable" testcasecount="5" result="Passed" start-time="2019-08-08 05:49:52Z" end-time="2019-08-08 05:49:56Z" duration="3.815895" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+  <test-suite type="Assembly" id="1-1004" name="NUnitTestFramework.dll" fullname="C:\Users\Naehas\source\repos\NUnitTestFramework\NUnitTestFramework\bin\Debug\NUnitTestFramework.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2019-08-08 18:07:44Z" end-time="2019-08-08 18:07:44Z" duration="0.118671" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
     <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17134.0" platform="Win32NT" cwd="C:\Users\Naehas\source\repos\NUnitTestFramework" machine-name="DESKTOP-U5823AG" user="Naehas" user-domain="DESKTOP-U5823AG" culture="en-IN" uiculture="en-US" os-architecture="x64" />
     <settings>
       <setting name="DisposeRunners" value="True" />
@@ -13,40 +13,20 @@
       <setting name="NumberOfTestWorkers" value="8" />
     </settings>
     <properties>
-      <property name="_PID" value="17780" />
+      <property name="_PID" value="16576" />
       <property name="_APPDOMAIN" value="domain-3454dc71-NUnitTestFramework.sln" />
     </properties>
-    <test-suite type="TestSuite" id="1-1009" name="NUnitTestFramework" fullname="NUnitTestFramework" runstate="Runnable" testcasecount="5" result="Passed" start-time="2019-08-08 05:49:52Z" end-time="2019-08-08 05:49:56Z" duration="3.785233" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
-      <test-suite type="TestSuite" id="1-1010" name="TestCases" fullname="NUnitTestFramework.TestCases" runstate="Runnable" testcasecount="5" result="Passed" start-time="2019-08-08 05:49:52Z" end-time="2019-08-08 05:49:56Z" duration="3.784435" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
-        <test-suite type="TestFixture" id="1-1002" name="Test2" fullname="NUnitTestFramework.TestCases.Test2" classname="NUnitTestFramework.TestCases.Test2" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-08-08 05:49:52Z" end-time="2019-08-08 05:49:52Z" duration="0.025115" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
-          <test-case id="1-1003" name="test4" fullname="NUnitTestFramework.TestCases.Test2.test4" methodname="test4" classname="NUnitTestFramework.TestCases.Test2" runstate="Runnable" seed="1766889655" result="Passed" start-time="2019-08-08 05:49:52Z" end-time="2019-08-08 05:49:52Z" duration="0.010892" asserts="0">
+    <test-suite type="TestSuite" id="1-1005" name="NUnitTestFramework" fullname="NUnitTestFramework" runstate="Runnable" testcasecount="2" result="Passed" start-time="2019-08-08 18:07:44Z" end-time="2019-08-08 18:07:44Z" duration="0.070115" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <test-suite type="TestSuite" id="1-1006" name="TestCases" fullname="NUnitTestFramework.TestCases" runstate="Runnable" testcasecount="2" result="Passed" start-time="2019-08-08 18:07:44Z" end-time="2019-08-08 18:07:44Z" duration="0.069501" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="TestFixture" id="1-1002" name="Test2" fullname="NUnitTestFramework.TestCases.Test2" classname="NUnitTestFramework.TestCases.Test2" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-08-08 18:07:44Z" end-time="2019-08-08 18:07:44Z" duration="0.044944" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <test-case id="1-1003" name="test4" fullname="NUnitTestFramework.TestCases.Test2.test4" methodname="test4" classname="NUnitTestFramework.TestCases.Test2" runstate="Runnable" seed="1486742021" result="Passed" start-time="2019-08-08 18:07:44Z" end-time="2019-08-08 18:07:44Z" duration="0.020093" asserts="0">
             <output><![CDATA[i am test 4
 ]]></output>
           </test-case>
         </test-suite>
-        <test-suite type="TestFixture" id="1-1000" name="Test3" fullname="NUnitTestFramework.TestCases.Test3" classname="NUnitTestFramework.TestCases.Test3" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-08-08 05:49:52Z" end-time="2019-08-08 05:49:52Z" duration="0.000321" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
-          <test-case id="1-1001" name="Test" fullname="NUnitTestFramework.TestCases.Test3.Test" methodname="Test" classname="NUnitTestFramework.TestCases.Test3" runstate="Runnable" seed="1949248348" result="Passed" start-time="2019-08-08 05:49:52Z" end-time="2019-08-08 05:49:52Z" duration="0.000119" asserts="0">
+        <test-suite type="TestFixture" id="1-1000" name="Test3" fullname="NUnitTestFramework.TestCases.Test3" classname="NUnitTestFramework.TestCases.Test3" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-08-08 18:07:44Z" end-time="2019-08-08 18:07:44Z" duration="0.000821" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <test-case id="1-1001" name="Test" fullname="NUnitTestFramework.TestCases.Test3.Test" methodname="Test" classname="NUnitTestFramework.TestCases.Test3" runstate="Runnable" seed="1084034852" result="Passed" start-time="2019-08-08 18:07:44Z" end-time="2019-08-08 18:07:44Z" duration="0.000344" asserts="0">
             <output><![CDATA[I am test33
-]]></output>
-          </test-case>
-        </test-suite>
-        <test-suite type="TestFixture" id="1-1004" name="Testing" fullname="NUnitTestFramework.TestCases.Testing" classname="NUnitTestFramework.TestCases.Testing" runstate="Runnable" testcasecount="3" result="Passed" start-time="2019-08-08 05:49:52Z" end-time="2019-08-08 05:49:56Z" duration="3.749341" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
-          <test-case id="1-1007" name="Test3" fullname="NUnitTestFramework.TestCases.Testing.Test3" methodname="Test3" classname="NUnitTestFramework.TestCases.Testing" runstate="Runnable" seed="356764507" result="Passed" start-time="2019-08-08 05:49:55Z" end-time="2019-08-08 05:49:55Z" duration="0.000179" asserts="0">
-            <properties>
-              <property name="Order" value="1" />
-            </properties>
-            <output><![CDATA[I am test 3
-]]></output>
-          </test-case>
-          <test-case id="1-1006" name="Test2" fullname="NUnitTestFramework.TestCases.Testing.Test2" methodname="Test2" classname="NUnitTestFramework.TestCases.Testing" runstate="Runnable" seed="1754673396" result="Passed" start-time="2019-08-08 05:49:55Z" end-time="2019-08-08 05:49:55Z" duration="0.000113" asserts="0">
-            <properties>
-              <property name="Order" value="2" />
-            </properties>
-            <output><![CDATA[I am test 2
-]]></output>
-          </test-case>
-          <test-case id="1-1005" name="Test1" fullname="NUnitTestFramework.TestCases.Testing.Test1" methodname="Test1" classname="NUnitTestFramework.TestCases.Testing" runstate="Runnable" seed="1286974649" result="Passed" start-time="2019-08-08 05:49:55Z" end-time="2019-08-08 05:49:56Z" duration="0.889561" asserts="0">
-            <output><![CDATA[Opening browser
 ]]></output>
           </test-case>
         </test-suite>
